@@ -6,3 +6,6 @@ length(dir(cname)) # list length
 
 library(tm) # if you don't have it -> install.packages("tm")
 
+docs <- Corpus(DirSource(cname) # Creating an object Corpus
+
+summary(docs)
